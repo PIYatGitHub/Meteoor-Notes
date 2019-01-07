@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "start": "meteor run",
-    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test": "meteor test --driver-package=cultofcoders:mocha",
     "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
     "visualize": "meteor --production --extra-packages bundle-visualizer"
   },
@@ -13,6 +13,7 @@
     "moment": "^2.23.0",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
+    "react-addons-pure-render-mixin": "^15.6.2",
     "react-dom": "^16.7.0",
     "react-router": "^3.0.0",
     "simpl-schema": "^1.5.3"
@@ -24,7 +25,12 @@
     "mainModule": {
       "client": "client/main.js",
       "server": "server/main.js"
-    },
-    "testModule": "tests/main.js"
+    }
+  },
+  "devDependencies": {
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "expect": "^1.20.2",
+    "react-addons-test-utils": "^15.6.2"
   }
 }

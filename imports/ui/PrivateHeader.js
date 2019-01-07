@@ -1,13 +1,17 @@
 import React from "react";
 import {Accounts} from "meteor/accounts-base";
 import PropTypes from 'prop-types';
+// UNCOMMENT IF YOU WANT TO USE THE CREATECONTAINER FUNC...
+//import {createContainer} from "meteor/react-meteor-data"
+import {withTracker} from "meteor/react-meteor-data";
 
-const PrivateHeader = (props) => {
+
+export const PrivateHeader = (props) => {
     return (
             <div className="header">
                 <div className="header__content">
                     <h1 className="header__title"> {props.title}</h1>
-                    <button className="header__content--button" onClick={() => Accounts.logout()}> Logout</button>
+                    <button className="header__content--button" onClick={() => props.handleLogout()}>Logout</button>
                 </div>
             </div>
 
@@ -15,11 +19,25 @@ const PrivateHeader = (props) => {
 };
 
 PrivateHeader.propTypes = {
-    title: PropTypes.string.isRequired
+    title: PropTypes.string.isRequired,
+    handleLogout: PropTypes.func.isRequired
 };
 
 PrivateHeader.defaultProps = {
     title: "Default Page Title"
 };
+// WORKS BUT GIVES A WARNING
+// export default createContainer( () => {
+//     return {
+//        handleLogout:() =>  Accounts.logout()
+//     };
+// }, PrivateHeader);
 
-export default PrivateHeader;
+
+
+//WORKS BUT DOES NOT GIVE A WARNING - THE SUGGESTED SOLUTION FROM THE WARNING
+export default withTracker( () => {
+    return {
+        handleLogout:() =>  Accounts.logout()
+    };
+}) (PrivateHeader);

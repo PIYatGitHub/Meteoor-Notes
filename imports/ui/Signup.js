@@ -1,8 +1,11 @@
 import React from "react";
 import {Link} from 'react-router';
 import {Accounts} from 'meteor/accounts-base';
+import {withTracker} from "meteor/react-meteor-data";
+import PropTypes from 'prop-types';
+import {Meteor} from "meteor/meteor";
 
- export default class Signup extends React.Component{
+ export class Signup extends React.Component{
     constructor(props) {
         super(props);
         this.state =  {
@@ -19,7 +22,7 @@ import {Accounts} from 'meteor/accounts-base';
                 error: "Password has to be more than 8 characters long."
             });
         }
-        Accounts.createUser({email, password}, (err) => {
+        this.props.createUser({email, password}, (err) => {
             if(err) {
                 this.setState({
                     error: err.reason
@@ -50,3 +53,13 @@ import {Accounts} from 'meteor/accounts-base';
         )
     }
 }
+
+Signup.propTypes = {
+    createUser:PropTypes.func.isRequired
+};
+
+export default withTracker( () => {
+    return {
+        createUser: Accounts.createUser
+    };
+}) (Signup);
