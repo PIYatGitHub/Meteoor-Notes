@@ -1,2 +1,2 @@
-# A generic boilerplate app for a login system.
-Includes a basic react and auth setup.
+# A notes management app
+Includes a basic react and auth setup, components to add, remove and edit notes, as well as some mobile device support.
