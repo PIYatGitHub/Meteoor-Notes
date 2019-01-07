@@ -37,8 +37,6 @@ if(Meteor.isClient) {
             expect (Session.set).toHaveBeenCalledWith ('selectedNoteId',notes[0]._id);
         });
 
-
-
     });
 
 }

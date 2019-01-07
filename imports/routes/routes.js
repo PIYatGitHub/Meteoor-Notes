@@ -5,12 +5,21 @@ import Signup from '../ui/Signup';
 import Dashboard from '../ui/Dashboard';
 import NotFound from "../ui/NotFound";
 import Login from "../ui/Login";
+import {Session} from "meteor/session";
+
 
 const unauthenticatedPages = ["/", "/signup"];
 const authenticatedPages = ["/dashboard"];
 const onEnterPublicPage = () => {
     if(Meteor.userId()) {
         browserHistory.replace('/dashboard');
+    }
+};
+const onEnterNotePage = (nextState) => {
+    if(!Meteor.userId()) {
+        browserHistory.replace('/');
+    } else {
+        Session.set('selectedNoteId', nextState.params.id);
     }
 };
 const onEnterPrivatePage = () => {
@@ -36,7 +45,7 @@ export const routes = (
         <Route path="/" component={Login} onEnter = {onEnterPublicPage} />
         <Route path="/signup" component={Signup} onEnter = {onEnterPublicPage}/>
         <Route path="/dashboard" component={Dashboard} onEnter = {onEnterPrivatePage}/>
-        <Route path="/dashboard/:id" component={Dashboard} onEnter = {onEnterPrivatePage}/>
+        <Route path="/dashboard/:id" component={Dashboard} onEnter = {onEnterNotePage}/>
         <Route path="*" component={NotFound}/>
     </Router>
 );
