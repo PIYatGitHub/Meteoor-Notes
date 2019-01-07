@@ -1,6 +1,6 @@
 import React from "react";
 
-export default NoteListEmptyItem = ()  => {
+const NoteListEmptyItem = ()  => {
     return (
         <div>
             <h5> You have no notes... </h5>
@@ -8,5 +8,6 @@ export default NoteListEmptyItem = ()  => {
         </div>
     );
 };
+export default NoteListEmptyItem;
 
 
