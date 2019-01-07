@@ -3,28 +3,11 @@ import React from 'react';
 import expect from 'expect';
 import {mount} from 'enzyme';
 import {NoteList} from './NoteList';
-
+import {notes} from "../fixtures/fixtures";
 import Enzyme from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
+
 Enzyme.configure({ adapter: new Adapter() });
-
-const notes = [
-    {
-        _id: 'noteId1',
-        title: 'Note1-test',
-        body: 'the body',
-        updatedAt: 0,
-        userId: 'userId1'
-    },
-    {
-        _id: 'noteId2',
-        title: '',
-        body: 'the body is here',
-        updatedAt: 0,
-        userId: 'userId2'
-    }
-
-];
 
 if(Meteor.isClient) {
 
