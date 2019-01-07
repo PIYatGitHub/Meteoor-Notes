@@ -5,7 +5,7 @@ import {Meteor} from "meteor/meteor";
 import {Notes} from "../api/notes";
 import NoteListHeader from "./NoteListHeader";
 import NoteListItem from "./NoteListItem";
-
+import NoteListEmptyItem from './NoteListEmptyItem';
 
 
 export class NoteList extends React.Component  {
@@ -15,9 +15,7 @@ export class NoteList extends React.Component  {
     renderNotes() {
         if(this.props.notes.length ===0) {
             return (
-                <div>
-                    <p> No notes found... </p>
-                </div>
+              <NoteListEmptyItem/>
             );
 
         }
