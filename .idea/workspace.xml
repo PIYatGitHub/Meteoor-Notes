@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7effb8ce-35e3-49c3-81ab-00163183f294" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/imports/ui/NoteListEmptyItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/ui/NoteList.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/NoteList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/NoteListEmptyItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/NoteListEmptyItem.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,23 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NoteList.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NoteList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imports/ui/NoteList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NoteListEmptyItem.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NoteListEmptyItem.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imports/ui/NoteListEmptyItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -74,8 +69,8 @@
         <option value="$PROJECT_DIR$/imports/ui/NoteListItem.test.js" />
         <option value="$PROJECT_DIR$/imports/ui/NoteListHeader.test.js" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/imports/ui/NoteListEmptyItem.js" />
         <option value="$PROJECT_DIR$/imports/ui/NoteList.js" />
+        <option value="$PROJECT_DIR$/imports/ui/NoteListEmptyItem.js" />
       </list>
     </option>
   </component>
@@ -184,12 +179,12 @@
       <updated>1546425578744</updated>
       <workItem from="1546425579911" duration="1647000" />
       <workItem from="1546435215417" duration="1189000" />
-      <workItem from="1546442971083" duration="45697000" />
+      <workItem from="1546442971083" duration="45846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48533000" />
+    <option name="totallyTimeSpent" value="48682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -511,20 +506,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/NoteListEmptyItem.js">
+    <entry file="file://$PROJECT_DIR$/imports/ui/NoteList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/NoteList.js">
+    <entry file="file://$PROJECT_DIR$/imports/ui/NoteListEmptyItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>

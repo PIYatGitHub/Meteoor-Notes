@@ -3,7 +3,8 @@ import React from "react";
 export default NoteListEmptyItem = ()  => {
     return (
         <div>
-            <p> No notes found... </p>
+            <h5> You have no notes... </h5>
+            <p> Create a note to get started! </p>
         </div>
     );
 };
