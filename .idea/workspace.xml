@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7effb8ce-35e3-49c3-81ab-00163183f294" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/imports/ui/Editor.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/ui/NoteListItem.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/NoteListItem.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/NoteList.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/NoteList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/NoteListHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/NoteListHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/NoteListHeader.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/NoteListHeader.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +22,17 @@
       <file leaf-file-name="Editor.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imports/ui/Editor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="49" column="29" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="29" />
+            <state relative-caret-position="17">
+              <caret line="1" column="53" lean-forward="true" selection-start-line="1" selection-start-column="53" selection-end-line="2" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoteListHeader.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imports/ui/NoteListHeader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -30,23 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Editor.test.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/imports/ui/Editor.test.js">
+      <file leaf-file-name="NoteListHeader.test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imports/ui/NoteListHeader.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="763">
-              <caret line="80" column="49" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/ui/Login.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="38" />
+            <state relative-caret-position="561">
+              <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -82,13 +80,10 @@
         <option value="$PROJECT_DIR$/imports/ui/Signup.js" />
         <option value="$PROJECT_DIR$/imports/ui/Signup.test.js" />
         <option value="$PROJECT_DIR$/server/main.js" />
-        <option value="$PROJECT_DIR$/imports/ui/NoteListHeader.js" />
-        <option value="$PROJECT_DIR$/imports/ui/NoteListHeader.test.js" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/imports/ui/NoteListEmptyItem.js" />
         <option value="$PROJECT_DIR$/imports/ui/NoteList.test.js" />
         <option value="$PROJECT_DIR$/imports/fixtures/fixtures.js" />
-        <option value="$PROJECT_DIR$/imports/ui/NoteList.js" />
         <option value="$PROJECT_DIR$/imports/ui/Dashboard.js" />
         <option value="$PROJECT_DIR$/client/main.js" />
         <option value="$PROJECT_DIR$/imports/routes/routes.js" />
@@ -96,6 +91,9 @@
         <option value="$PROJECT_DIR$/imports/ui/NoteListItem.js" />
         <option value="$PROJECT_DIR$/imports/ui/NoteListItem.test.js" />
         <option value="$PROJECT_DIR$/imports/ui/Editor.test.js" />
+        <option value="$PROJECT_DIR$/imports/ui/NoteList.js" />
+        <option value="$PROJECT_DIR$/imports/ui/NoteListHeader.js" />
+        <option value="$PROJECT_DIR$/imports/ui/NoteListHeader.test.js" />
       </list>
     </option>
   </component>
@@ -222,18 +220,18 @@
       <workItem from="1546425579911" duration="1647000" />
       <workItem from="1546435215417" duration="1189000" />
       <workItem from="1546442971083" duration="54678000" />
-      <workItem from="1546935930509" duration="8562000" />
+      <workItem from="1546935930509" duration="9761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66076000" />
+    <option name="totallyTimeSpent" value="67275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="854" height="1017" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.12867647" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.19485295" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
@@ -435,13 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/NoteListHeader.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imports/ui/NoteListEmptyItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -463,13 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/NoteListHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imports/fixtures/fixtures.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -484,13 +468,6 @@
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/NoteList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -565,10 +542,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/Editor.js">
+    <entry file="file://$PROJECT_DIR$/imports/ui/NoteList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="49" column="29" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="29" />
+        <state relative-caret-position="457">
+          <caret line="42" column="2" lean-forward="true" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -577,8 +554,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imports/ui/Editor.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
-          <caret line="80" column="49" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
+        <state relative-caret-position="1139">
+          <caret line="67" column="45" lean-forward="true" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/Editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="53" lean-forward="true" selection-start-line="1" selection-start-column="53" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/NoteListHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/NoteListHeader.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
