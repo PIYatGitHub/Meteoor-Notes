@@ -20,9 +20,11 @@ if(Meteor.isClient) {
             };
         });
         it('should show title and timestamp',function () {
-            const   wrapper = mount(<NoteListItem note={notes[0]} Session={Session}/>);
+            const   wrapper = mount(<NoteListItem note={notes[0]} Session={Session}/>),
+                    targetP =wrapper.find('p').getElements()[1];
+
             expect (wrapper.find('h5').text().trim()).toBe (notes[0].title);
-            expect (wrapper.find('p').text().trim()).toBe ('07/01/2019');
+            expect (targetP.props.children).toBe ('07/01/2019');
             // because date is formatted as DD/MM/YYYY!!!
         });
 
