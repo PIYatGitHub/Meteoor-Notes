@@ -33,8 +33,6 @@ if(Meteor.isClient) {
             meteorCall.calls[0].arguments[1]('something failed',undefined);
             expect(Session.set).toNotHaveBeenCalled();
         });
-
-
     });
 
 }
