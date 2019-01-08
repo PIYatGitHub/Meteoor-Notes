@@ -19,7 +19,7 @@ $button-secondary-border-color: $grey;
 
 //spacing
 $space: 1.4rem;
-$site-max-width:50rem;
+$site-max-width:100rem;
 
 //font sizes
 $base-font-size: 1.4rem;
@@ -34,8 +34,6 @@ $boxed-view-overlay-bg: $grey;
 $boxed-view-bg: #ffffff;
 $boxed-view-border-color: $grey;
 
-
-
 // header bar
 $header-bg:$brand-primary;
 $header-color: #ffffff;
@@ -44,3 +42,7 @@ $header-color: #ffffff;
 $item-bg:$light-grey;
 $item-border: darken($item-bg, 8%);
 $item-text-color:$dark-grey;
+
+//page content
+$page-content-sidebar-width: 30rem;
+$page-content-main-content-width: calc(#{$site-max-width} - #{$page-content-sidebar-width});
