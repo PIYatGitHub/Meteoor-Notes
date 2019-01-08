@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7effb8ce-35e3-49c3-81ab-00163183f294" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/imports/client/styles/components/_editor.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imports/client/styles/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/imports/client/styles/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/client/styles/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/imports/client/styles/_main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imports/client/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/imports/client/styles/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/client/styles/components/_item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/imports/client/styles/components/_item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/client/styles/components/_editor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/imports/client/styles/components/_editor.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imports/client/styles/components/_pageContent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/imports/client/styles/components/_pageContent.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/client/styles/components/_privateHeader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/imports/client/styles/components/_privateHeader.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imports/ui/Editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/Editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/ui/NoteList.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/NoteList.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,47 +23,8 @@
       <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imports/client/styles/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
-              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_privateHeader.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/client/styles/components/_privateHeader.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/client/styles/_base.scss">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_item.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/client/styles/components/_item.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoteList.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/imports/ui/NoteList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -81,20 +38,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_pageContent.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/client/styles/components/_pageContent.scss">
+      <file leaf-file-name="_editor.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imports/client/styles/components/_editor.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="527">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_editor.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/client/styles/components/_editor.scss">
+      <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imports/client/styles/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="323">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Editor.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imports/ui/Editor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,14 +109,14 @@
         <option value="$PROJECT_DIR$/imports/client/styles/components/_boxed-view.scss" />
         <option value="$PROJECT_DIR$/imports/ui/Dashboard.js" />
         <option value="$PROJECT_DIR$/imports/client/styles/_main.scss" />
-        <option value="$PROJECT_DIR$/imports/ui/Editor.js" />
-        <option value="$PROJECT_DIR$/imports/client/styles/components/_editor.scss" />
         <option value="$PROJECT_DIR$/imports/client/styles/components/_privateHeader.scss" />
-        <option value="$PROJECT_DIR$/imports/client/styles/_variables.scss" />
-        <option value="$PROJECT_DIR$/imports/client/styles/components/_pageContent.scss" />
-        <option value="$PROJECT_DIR$/imports/client/styles/_base.scss" />
         <option value="$PROJECT_DIR$/imports/client/styles/components/_item.scss" />
         <option value="$PROJECT_DIR$/imports/ui/NoteList.js" />
+        <option value="$PROJECT_DIR$/imports/client/styles/components/_pageContent.scss" />
+        <option value="$PROJECT_DIR$/imports/client/styles/_variables.scss" />
+        <option value="$PROJECT_DIR$/imports/client/styles/_base.scss" />
+        <option value="$PROJECT_DIR$/imports/client/styles/components/_editor.scss" />
+        <option value="$PROJECT_DIR$/imports/ui/Editor.js" />
       </list>
     </option>
   </component>
@@ -295,18 +264,18 @@
       <workItem from="1546425579911" duration="1647000" />
       <workItem from="1546435215417" duration="1189000" />
       <workItem from="1546442971083" duration="54678000" />
-      <workItem from="1546935930509" duration="13190000" />
+      <workItem from="1546935930509" duration="14654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70704000" />
+    <option name="totallyTimeSpent" value="72168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="854" height="1017" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.3002451" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.29289216" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
@@ -650,27 +619,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/Editor.js">
+    <entry file="file://$PROJECT_DIR$/imports/ui/NoteList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="313">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/client/styles/components/_editor.scss">
+    <entry file="file://$PROJECT_DIR$/imports/client/styles/components/_item.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/client/styles/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -683,29 +645,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imports/client/styles/components/_pageContent.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="204">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/client/styles/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/client/styles/components/_button.scss">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/imports/client/styles/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/client/styles/components/_item.scss">
+    <entry file="file://$PROJECT_DIR$/imports/client/styles/components/_editor.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/NoteList.js">
+    <entry file="file://$PROJECT_DIR$/imports/ui/Editor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        <state relative-caret-position="374">
+          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
