@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7effb8ce-35e3-49c3-81ab-00163183f294" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/client/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/client/styles/components/_editor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/imports/client/styles/components/_editor.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/client/styles/components/_item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/imports/client/styles/components/_item.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/client/styles/components/_pageContent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/imports/client/styles/components/_pageContent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_pageContent.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_pageContent.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imports/client/styles/components/_pageContent.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -83,7 +89,6 @@
         <option value="$PROJECT_DIR$/imports/ui/Signup.js" />
         <option value="$PROJECT_DIR$/imports/ui/Signup.test.js" />
         <option value="$PROJECT_DIR$/server/main.js" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/imports/ui/NoteList.test.js" />
         <option value="$PROJECT_DIR$/imports/fixtures/fixtures.js" />
         <option value="$PROJECT_DIR$/imports/routes/routes.js" />
@@ -110,6 +115,7 @@
         <option value="$PROJECT_DIR$/imports/client/styles/components/_item.scss" />
         <option value="$PROJECT_DIR$/imports/client/styles/components/_editor.scss" />
         <option value="$PROJECT_DIR$/imports/client/styles/components/_pageContent.scss" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -253,12 +259,12 @@
       <workItem from="1546425579911" duration="1647000" />
       <workItem from="1546435215417" duration="1189000" />
       <workItem from="1546442971083" duration="54678000" />
-      <workItem from="1546935930509" duration="27646000" />
+      <workItem from="1546935930509" duration="27934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85160000" />
+    <option name="totallyTimeSpent" value="85448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="854" height="1017" extended-state="0" />
@@ -391,13 +397,6 @@
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -658,6 +657,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
