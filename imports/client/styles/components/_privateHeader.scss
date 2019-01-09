@@ -1,4 +1,5 @@
 @import "../variables";
+@import "../mixins/media-query-mixins";
 .header {
   background: $header-bg;
   color: $header-color;
@@ -14,6 +15,16 @@
   font-size: 1.3rem;
   font-weight: 300;
 }
+.header__content > img {
+  cursor: pointer;
+  max-height: $header-height;
+  width: auto;
+
+  @include desktop{
+  display: none;
+  }
+}
+
 .header__title {
   margin: 0;
 }
@@ -25,4 +36,6 @@
   margin: 0;
   padding: 0;
   text-decoration: underline;
+
+
 }
