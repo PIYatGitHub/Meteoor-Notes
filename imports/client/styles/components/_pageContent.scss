@@ -19,7 +19,7 @@
   left: -100vw;
   bottom: 0;
   width: 100vw;
-
+  z-index: 1;
   @include desktop {
     display: flex;
     padding-right: $large-space;
